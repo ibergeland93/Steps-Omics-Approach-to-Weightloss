@@ -1,5 +1,6 @@
 # NOTE
 For independent project contributions, please select from the branch you wish to review.
+All files (including data files too large for GitHub) are publicly stored on this G-drive: https://drive.google.com/drive/folders/1EXXzHKO9jYndCihwqpDHtW0_vFBoQcas?usp=sharing.
 
 # Steps Omics Approach to Weightloss
 
