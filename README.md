@@ -16,13 +16,13 @@ Data was collected using the methods...
 
 From original datasets, data was organized into four datasets: Step Count, Anthropometrics, F&T Labs, and Gene Expression.
 
-Step Count - this dataset contains 90 days worth of step count data collected for each of the 84 participants depending on their assigned study group. Participants in "Blue" study group retained 90 days worth data taken from baseline whereas participants in "Red" study group retained 90 days worth of data taken starting from day 90. Data considered for each group were: Date, weight, BMI, and step count.
+**Step Count** - this dataset contains 90 days worth of step count data collected for each of the 84 participants depending on their assigned study group. Participants in "Blue" study group retained 90 days worth data taken from baseline whereas participants in "Red" study group retained 90 days worth of data taken starting from day 90. Data considered for each group were: Date, weight, BMI, and step count.
 
-Anthropemetrics - this dataset contains the studyID for each of the 84 participants as well as the check-in dates established baseline, 3 months, and 6 months. There is a "Red" or "Blue" study group associated with each participant that is used as a mapping for the other datasets.
+**Anthropemetrics** - this dataset contains the studyID for each of the 84 participants as well as the check-in dates established baseline, 3 months, and 6 months. There is a "Red" or "Blue" study group associated with each participant that is used as a mapping for the other datasets.
 
-F&T Labs - this dataset contains demographic information such as: age, gender, baseline glucose and baseline A1C measurements taken for each of the 84 participants. Additionally there is the associated "Red" or "Blue" study group that we use to map between datasets.
+**F&T Labs** - this dataset contains demographic information such as: age, gender, baseline glucose and baseline A1C measurements taken for each of the 84 participants. Additionally there is the associated "Red" or "Blue" study group that we use to map between datasets.
 
-Gene Expression - this dataset contains the ensemble geneID gene expression for each of the 84 participants taken at baseline, 3 months, and 6 months. We normalized this dataset during feature engineering to contained normalized counts per million of gene expression data. We utilized the external HUGO Database to rename ensemble geneID's into HGNC gene ID's so that would could implement KEGG Pathways analysis of our gene expression data.
+**Gene Expression** - this dataset contains the ensemble geneID gene expression for each of the 84 participants taken at baseline, 3 months, and 6 months. We normalized this dataset during feature engineering to contained normalized counts per million of gene expression data. We utilized the external HUGO Database to rename ensemble geneID's into HGNC gene ID's so that would could implement KEGG Pathways analysis of our gene expression data.
 
 # Methods:
 
